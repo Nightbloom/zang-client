@@ -8,6 +8,7 @@ function Payment() {
 
   const [pay, setPay] = useState({
     name: "Zang It",
+    
     price: total,
   });
 
