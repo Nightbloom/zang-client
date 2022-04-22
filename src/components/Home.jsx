@@ -13,6 +13,11 @@ import pepper from "../images/top-view-bell-pepper-pepper-sliced-white-horizonta
 import wicon from "../images/wicon.png";
 import { Link } from "react-router-dom";
 export const Home = () => {
+  
+  const handleClick = () => {
+    window.open("https://wa.me/918248890189?text=Hi%20Zang./" );
+  };
+
   return (
     <div className="conatainer">
       <div className="header">
@@ -39,7 +44,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="wicon">
-        <Link to=" https://wa.me/918248890189?text=Hi%20Zang.">
+        <Link target="_blank" onClick={handleClick}>
         <img src={wicon} />
         </Link>
       </div>
