@@ -37,8 +37,10 @@
 
 /* smallInfo */
 .smallInfo{
+    position: relative;
+    left: 2vw;
     margin-top: 2vw;
-    font-family:'Caveat', cursive;
+    font-family: 'Caveat', cursive;
     
 }
 
@@ -91,10 +93,23 @@
 
 }
 .quantity-button{
+    position: relative;
+    left: 1vw;
     display: flex;
-    align-items: center;
+    height: 8vw;
     border: .1px solid #e7e3e3;
 }
+.quantity-button button{
+    height: 8vw;
+    font-size: 4vw;
+}
+
+.quantity-button strong{
+    position: relative;
+    left: -1.5vw;
+    top: 1.5vw;
+    width: 7vw;
+  }
 
 /* down arrow */
 

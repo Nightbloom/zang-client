@@ -39,7 +39,9 @@ export const Home = () => {
         </div>
       </div>
       <div className="wicon">
+        <Link to=" https://wa.me/918248890189?text=Hi%20Zang.">
         <img src={wicon} />
+        </Link>
       </div>
       <div className="welcome">
         <div className="sub_heading">

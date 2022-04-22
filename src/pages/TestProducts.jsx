@@ -70,7 +70,7 @@ const TestProducts = () => {
             <img src={Halwa} />
           </div>
           <div className="smallInfo">
-            <h6 className="info-header">SugarCane Halwa</h6>
+            <h6 className="info-header">Bulgar SugarCane Halwa</h6>
             <div className="info">
               <img className="img1" src={time} />
               <i>&nbsp;&nbsp;&nbsp;30 min</i>
@@ -115,7 +115,7 @@ const TestProducts = () => {
             <img src={pNutty} />
           </div>
           <div className="smallInfo">
-            <h6 className="info-header">Belgium Nutty</h6>
+            <h6 className="info-header">Belgium Nutty Praline Kit</h6>
             <div className="info">
               <img className="img1" src={time} />
               <i>&nbsp;&nbsp;&nbsp;30 min</i>
@@ -205,7 +205,7 @@ const TestProducts = () => {
             <img src={Payasam} />
           </div>
           <div className="smallInfo">
-            <h6 className="info-header">Black Payasam</h6>
+            <h6 className="info-header">Black rice Payasam</h6>
             <div className="info">
               <img className="img1" src={time} />
               <i>&nbsp;&nbsp;&nbsp;30 min</i>
